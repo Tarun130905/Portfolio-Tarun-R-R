@@ -22,6 +22,7 @@ export const ProjectsSection = () => {
     {
       title: "Smart Expense Tracker",
       date: "January 2026",
+      repo: "https://github.com/Tarun130905/Expense-Tracker",
       description:
         "Built a Smart Finance Tracker that automatically categorizes expenses and tracks budgets in real time. It turns raw spending data into clear, actionable insights and allows one-click CSV exports for easy analysis and sharing.",
     },
