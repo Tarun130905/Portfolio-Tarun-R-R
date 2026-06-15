@@ -14,22 +14,22 @@ export const ProjectsSection = () => {
         "Developed and executed a comprehensive website for predicting prices and flights available in a fixed schedule for travel.",
     },
     {
-      title: "SwimProf – Athlete Performance & Health Tracking Platform",
-      date: "Present",
+      title: "AI-Powered Automated CSV Cleaner",
+      date: "November 2025",
       description:
-        "Creating a platform for my swim team to record competition results, track daily practice sessions, and monitor health details like heart rate and calories burned. The system allows swimmers to compare their progress with teammates, while coaches get an overview of training, performance trends, and athlete well-being.",
+        "Developed an AI-powered automated CSV Cleaning tool that detects and fixes missing values, duplicates, and formatting issues using ML-based imputation techniques. Enables one-click conversion of raw messy CSV files into clean, analysis-ready datasets within seconds.",
+    },
+    {
+      title: "Smart Expense Tracker",
+      date: "January 2026",
+      description:
+        "Built a Smart Finance Tracker that automatically categorizes expenses and tracks budgets in real time. It turns raw spending data into clear, actionable insights and allows one-click CSV exports for easy analysis and sharing.",
     },
     {
       title: "Personalized Workout & Diet Recommender",
       date: "Present",
       description:
-        "Developing an AI-driven personalized workout and diet recommender for swimmers, combining collaborative filtering with rule-based AI to suggest tailored training plans and nutrition strategies based on athlete profiles and performance goals.",
-    },
-    {
-      title: "AI-Powered Automated CSV Cleaner",
-      date: "Present",
-      description:
-        "Developing an automated agent that detects and corrects missing values and outliers in datasets using machine learning and rule-based methods. It cleans messy CSV files and provides clear reports to improve data quality for AI workflows.",
+        "Built an AI-based workout and diet recommender for swimmers using collaborative filtering and rule-based logic to generate personalized training and nutrition plans.",
     }
   ];
 

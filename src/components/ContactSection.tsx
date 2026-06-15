@@ -29,7 +29,7 @@ export const ContactSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <a
-                href="mailto:rrtarun2020@gmail.com"
+                href="mailto:ritarun2020@gmail.com"
                 className="flex items-center gap-4 p-4 bg-secondary rounded-lg hover:bg-primary hover:text-primary-foreground transition-all group"
               >
                 <div className="w-12 h-12 rounded-lg bg-primary/10 group-hover:bg-primary-foreground/10 flex items-center justify-center">
@@ -37,7 +37,7 @@ export const ContactSection = () => {
                 </div>
                 <div className="text-left">
                   <p className="font-semibold">Email</p>
-                  <p className="text-sm opacity-80">rrtarun2020@gmail.com</p>
+                  <p className="text-sm opacity-80">ritarun2020@gmail.com</p>
                 </div>
               </a>
 
@@ -55,7 +55,7 @@ export const ContactSection = () => {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/tarun-r-r-63817a320/"
+                href="https://www.linkedin.com/in/larunrr/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 bg-secondary rounded-lg hover:bg-primary hover:text-primary-foreground transition-all group"

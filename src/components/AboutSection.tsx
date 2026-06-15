@@ -34,7 +34,7 @@ export const AboutSection = () => {
                 <div className="flex items-center gap-2 text-muted-foreground mb-4">
                   <Calendar size={16} />
                   <span>Sept 2023 - Present</span>
-                  <span className="ml-4">CGPA: 8.4</span>
+                  <span className="ml-4">CGPA: 8.45</span>
                 </div>
                 <p className="text-muted-foreground">Tamilnadu, India</p>
               </div>

@@ -6,6 +6,17 @@ export const ExperienceSection = () => {
   const { ref, isVisible } = useScrollAnimation();
   const experiences = [
     {
+      title: "Full Stack Developer Intern",
+      organization: "Xtract.io",
+      period: "Jan 2026 - Apr 2026",
+      description: "Designed and developed a User Analytics Dashboard using Angular, .NET Core, and PostgreSQL. Contributed to debugging, testing, deployment, and CI/CD workflows using Azure DevOps.",
+    },
+    {
+      title: "Department Sports Head",
+      organization: "Easwari Engineering College",
+      description: "Organized sports events and demonstrated leadership and team management skills.",
+    },
+    {
       title: "Member",
       organization: "METANOIA SRM EASWARI TOASTMASTERS Club",
       description: "Developing communication and leadership skills through regular club activities",
@@ -13,7 +24,7 @@ export const ExperienceSection = () => {
     {
       title: "Member",
       organization: "Youth Red Cross - Easwari Engineering College",
-      description: "Volunteered in many social work events and awareness campaigns",
+      description: "Volunteered in social work events and contributed to community service initiatives and Toastmasters conferences for communication and networking.",
     },
   ];
 
@@ -42,7 +53,8 @@ export const ExperienceSection = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-1">{exp.title}</h3>
-                  <p className="text-primary font-semibold mb-2">{exp.organization}</p>
+                  <p className="text-primary font-semibold mb-1">{exp.organization}</p>
+                  {exp.period && <p className="text-sm text-muted-foreground mb-2">{exp.period}</p>}
                   <p className="text-muted-foreground">{exp.description}</p>
                 </div>
               </div>

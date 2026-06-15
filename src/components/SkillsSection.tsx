@@ -8,17 +8,17 @@ export const SkillsSection = () => {
     {
       title: "Languages",
       icon: Code,
-      skills: ["Python", "C++", "HTML/CSS", "SQL", "Java"],
+      skills: ["Python", "C++", "HTML/CSS", "SQL", "PostgreSQL"],
     },
     {
       title: "Frameworks",
       icon: Layers,
-      skills: ["Pandas", "Numpy", "Matplotlib", "Scikit-Learn", "Flask"],
+      skills: ["Angular", "Pandas", "Numpy", "Matplotlib", "Scikit", "Flask", "React", "ASP.NET"],
     },
     {
       title: "Tools & Platforms",
       icon: Wrench,
-      skills: ["Jupyter Notebook", "Visual Studio Code", "Google Colab", "Power BI"],
+      skills: ["Jupyter Notebook", "Visual Studio Code", "Google Colab", "Power BI", "Gen AI"],
     },
     {
       title: "Soft Skills",

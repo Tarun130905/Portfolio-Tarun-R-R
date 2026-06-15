@@ -5,12 +5,11 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 export const CertificationsSection = () => {
   const { ref, isVisible } = useScrollAnimation();
   const certifications = [
-    { name: "Internet of Things", provider: "NPTEL" },
-    { name: "Social Network Analysis", provider: "NPTEL" },
+    { name: "Microsoft Azure", provider: "Microsoft" },
+    { name: "Artificial Intelligence", provider: "Infosys Springboard" },
     { name: "Networking Course", provider: "CISCO" },
     { name: "Data Science Tools", provider: "IBM (Cognitive Classes)" },
-    { name: "Dockers Essentials: A Developer Introduction", provider: "IBM (Cognitive Classes)" },
-    { name: "Introduction To MongoDB", provider: "MongoDB" },
+    { name: "Internet of Things", provider: "NPTEL" },
   ];
 
   return (
